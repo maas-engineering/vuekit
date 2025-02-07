@@ -14,9 +14,6 @@ const MagicMenuItemActive = Symbol() as InjectionKey<MaybeRef<boolean>>
 const MagicMenuChannelId = Symbol() as InjectionKey<string>
 const MagicMenuChannelActive = Symbol() as InjectionKey<MaybeRef<boolean>>
 
-const MagicMenuChannelId = Symbol() as InjectionKey<string>
-const MagicMenuChannelActive = Symbol() as InjectionKey<boolean>
-
 export {
   MagicMenuInstanceId,
   MagicMenuParentTree,
